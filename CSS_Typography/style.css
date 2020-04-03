@@ -1,0 +1,25 @@
+.p1
+{
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    line-height: 2.5;
+    color: blue;
+}
+.p2
+{
+    font-weight: 200;
+    font-family: 'Amiri', serif;
+    color: brown;
+    font-size: 20px;
+    line-height: 2.0;
+}
+.p3
+{
+    
+    font-weight: 150;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    line-height: 1.8;
+
+}

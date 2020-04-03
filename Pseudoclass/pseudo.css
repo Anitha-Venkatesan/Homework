@@ -1,0 +1,24 @@
+a:hover
+{
+    background-color:blue;
+    
+   
+}
+a:focus
+{
+    background-color: chartreuse;
+}
+
+a:active
+{
+    background-color: coral;
+}
+
+.pseudo
+{
+    font-size: 30px;
+}
+#grow:hover
+{
+    transform: scale(1.5);
+}
