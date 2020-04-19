@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speed Reader</title>
+</head>
+<body>
+  <h1>Countdown Timer</h1>
+  <div onclick="func2()" style="background-color: green; width: 100%; height: 500px;">DIV 2
+    <div onclick="func1(event)" style="background-color: red; width: 200px; height: 200px;">DIV 1</div>
+  </div>
+  
+  <script>
+    function func1(event) {
+      alert("DIV 1");  
+      event.stopPropagation();
+    }
+    
+    function func2() {
+      alert("DIV 2");
+    }
+  </script>
+</body>
+</html>
